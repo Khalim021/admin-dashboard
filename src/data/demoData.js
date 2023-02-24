@@ -391,8 +391,8 @@ export const userBarData = [
 
 export const userPieData = [
   {
-    id: "hack",
-    label: "hack",
+    id: "vue.js",
+    label: "vue.js",
     value: 239,
     color: "hsl(104, 70%, 50%)",
   },
@@ -415,8 +415,8 @@ export const userPieData = [
     color: "hsl(229, 70%, 50%)",
   },
   {
-    id: "scala",
-    label: "scala",
+    id: "react",
+    label: "react",
     value: 584,
     color: "hsl(344, 70%, 50%)",
   },
@@ -424,7 +424,7 @@ export const userPieData = [
 
 export const userLineData = [
   {
-    id: "japan",
+    id: "canada",
     color: tokens("dark").greenAccent[500],
     data: [
       {
@@ -478,7 +478,7 @@ export const userLineData = [
     ],
   },
   {
-    id: "france",
+    id: "Uzbekistan",
     color: tokens("dark").blueAccent[300],
     data: [
       {
@@ -532,7 +532,7 @@ export const userLineData = [
     ],
   },
   {
-    id: "us",
+    id: "korea",
     color: tokens("dark").redAccent[200],
     data: [
       {

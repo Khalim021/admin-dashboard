@@ -9,6 +9,11 @@ import Contacts from "./main/contacts/Contacts";
 import Invoices from "./main/invoices/Invoices"
 import Form from "./main/form/Form";
 import Calendar from "./main/calendar/Calendar";
+import Faq from "./main/faq/Faq";
+import Bar from "./main/barchart/Bar";
+import Pie from "./main/piechart/Pie";
+import Line from "./main/linegraph/Line";
+import WorldMap from "./main/geo/WorldMap";
 
 
 function App() {
@@ -29,6 +34,11 @@ function App() {
               <Route path="/invoices" element={<Invoices />} />
               <Route path="/form" element={<Form />} />
               <Route path="/calendar" element={<Calendar />} />
+              <Route path="/faq" element={<Faq />} />
+              <Route path="/barchart" element={<Bar />} />
+              <Route path="/piechart" element={<Pie />} />
+              <Route path="/linegraph" element={<Line />} />
+              <Route path="/worldmap" element={<WorldMap />} />
             </Routes>
           </main>
         </div>
@@ -38,3 +48,8 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
